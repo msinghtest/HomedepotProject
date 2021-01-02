@@ -21,8 +21,8 @@ public class homePage {
 
 		driver.get("https://www.homedepot.com/");	
 
-		WebElement alldept= driver.findElement(By.xpath("//ul[@class='ShoppingLinks']//a[contains (text(), 'All Departments')]"));	
-		alldept.click();	
+	//	WebElement alldept= driver.findElement(By.xpath("//ul[@class='ShoppingLinks']//a[contains (text(), 'All Departments')]"));	
+	//	alldept.click();	
 
 		driver.close();
 	}
